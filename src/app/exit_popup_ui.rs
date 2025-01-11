@@ -1,10 +1,9 @@
 use ratatui::text::Text;
-use ratatui::widgets::{Clear, Widget, Wrap};
 use ratatui::{
     buffer::Buffer,
     layout::Rect,
     style::{Color, Style},
-    widgets::{Block, Borders, Paragraph},
+    widgets::{Block, Borders, Clear, Paragraph, Widget, Wrap},
 };
 
 use super::App;
